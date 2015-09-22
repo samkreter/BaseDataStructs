@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CB3425A01BA0DE240038A554 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB34259F1BA0DE240038A554 /* main.cpp */; };
+		CB3425AB1BA0F6D30038A554 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB3425A91BA0F6D30038A554 /* BST.cpp */; };
+		CB3425AE1BA359D10038A554 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB3425AC1BA359D10038A554 /* List.cpp */; };
+		CB78334E1BB0E58A00BE8039 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78334C1BB0E58A00BE8039 /* HashTable.cpp */; };
+		CB7833511BB0E9BA00BE8039 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78334F1BB0E9BA00BE8039 /* ListNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		CB34259C1BA0DE240038A554 /* baseDataStructs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baseDataStructs; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB34259F1BA0DE240038A554 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CB3425A91BA0F6D30038A554 /* BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BST.cpp; sourceTree = "<group>"; };
+		CB3425AA1BA0F6D30038A554 /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		CB3425AC1BA359D10038A554 /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		CB3425AD1BA359D10038A554 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		CB78334C1BB0E58A00BE8039 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		CB78334D1BB0E58A00BE8039 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		CB78334F1BB0E9BA00BE8039 /* ListNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
+		CB7833501BB0E9BA00BE8039 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				CB34259F1BA0DE240038A554 /* main.cpp */,
+				CB3425A91BA0F6D30038A554 /* BST.cpp */,
+				CB3425AA1BA0F6D30038A554 /* BST.h */,
+				CB3425AC1BA359D10038A554 /* List.cpp */,
+				CB3425AD1BA359D10038A554 /* List.h */,
+				CB78334C1BB0E58A00BE8039 /* HashTable.cpp */,
+				CB78334D1BB0E58A00BE8039 /* HashTable.h */,
+				CB78334F1BB0E9BA00BE8039 /* ListNode.cpp */,
+				CB7833501BB0E9BA00BE8039 /* ListNode.h */,
 			);
 			path = baseDataStructs;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3425AE1BA359D10038A554 /* List.cpp in Sources */,
+				CB3425AB1BA0F6D30038A554 /* BST.cpp in Sources */,
+				CB78334E1BB0E58A00BE8039 /* HashTable.cpp in Sources */,
 				CB3425A01BA0DE240038A554 /* main.cpp in Sources */,
+				CB7833511BB0E9BA00BE8039 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +259,7 @@
 				CB3425A51BA0DE240038A554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
